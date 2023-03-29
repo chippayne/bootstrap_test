@@ -1,0 +1,90 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+	font-size: 100%;
+	}
+
+body {
+  background: #fff url(../img/bass_art.jpg) top center no-repeat;
+}
+
+	
+.profile {
+	background-color: rgba(255,255,255,0.8);
+	width: 100%;
+	padding: 0px 10px 5px 10px;
+	}
+	
+.top {
+	margin-top: 120px;
+	}
+	
+	
+	/** header nav controls etc **/	
+
+	.navbar-fixed-top {
+	
+	}
+
+
+	.navbar {
+		background-color: rgba(0,0,0,0.3) !important;
+      margin-bottom: 0;
+      z-index: 9999;
+      border: 0;
+      font-size: 14px !important;
+      line-height: 1.42857143 !important;
+      letter-spacing: 1px;
+      border-radius: 0;
+
+  }
+
+	.navbar-brand p{
+      color: #fff !important;
+	  letter-spacing:normal;
+	  text-transform:uppercase;
+	  padding-left:40px;
+	}
+
+	.dropdown-header{
+	  font-style:italic;
+	  color: #fff !important;
+	  background-color: rgba(0,0,0,0.2) !important;
+  }  
+	.dropdown-menu, .dropdown-menu li a, .dropdown-menu li.active a{
+		background-color: rgba(0,0,0,0.2) !important;
+	  
+  }
+  
+  
+	.dropdown-toggle:active, .open .dropdown-toggle {
+	  background-color: rgba(0,0,0,0.2) !important;
+	
+	  color: #fff !important;
+    }
+  
+	.navbar li a, .navbar {
+      color: #000 !important;
+ 
+  }
+	.navbar-nav li a:hover {
+      /*color: #ee3524 !important;*/
+	  color: #fff !important;
+      /*background-color: #ccc !important;*/
+  }
+  
+  	.navbar-nav li.active a {
+      /*color: #ee3524 !important;*/
+	  color: #fff !important;
+      background-color: #ccc !important;
+  }
+  
+	.navbar-default .navbar-toggle {
+      border-color: none;
+      color: #fff !important;
+  }
+  
+ .btn {
+	 background-color: #ccc !important; 
+	 }
